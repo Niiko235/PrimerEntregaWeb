@@ -5,11 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
-/* img{
-    width: 100%;
-} */
-
 #first{
     position: relative;
     height: 100vh;
@@ -17,54 +12,54 @@
     /* max-width:  100vw; */
     background-image: 
     linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-        url(../img/FondoPrincipal.jpg);
+        /* url(../img/FondoPrincipal.jpg); */
+        url(../img/nuevo.png);
     background-repeat: no-repeat;
     background-position: center, center;
     background-attachment: fixed;
     background-size: cover;
-} 
 
-.navbar{
-    position: sticky;
-    top: 0; /* Se mantiene pegado arriba */
-}
+    .navbar{
+        position: sticky;
+        top: 0; /* Se mantiene pegado arriba */
+    }
+    
 
-
-.navbar .nav-link,
-.navbar .navbar-brand {
-    color: white !important; /* Cambia el color de los enlaces */
-}
-
-
-.navbar-toggler-icon {
-    filter: invert(1);
-}
-
-#img-portada{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img{
-        height: 100%;
-        width: auto;
+    .navbar .nav-link,
+    .navbar .navbar-brand {
+        color: white !important; /* Cambia el color de los enlaces */
     }
 
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+} 
+
+#inicio{
+    max-width: 100vw;
+
+    img{
+        width: 100%;
+    }
+}
+
+.main_contenido{
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        
+    }
+    a:hover{
+        color: rgb(30, 154, 14);
+    }
 }
 
 
 footer{
     background-color: black;
 }
-/* 
-body{
-    background-image: 
-    linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-        url(../img/FondoPrincipal.jpg);
-    background-repeat: no-repeat;
-    background-position: center, center;
-    background-attachment: fixed;
-    background-size: cover;
-} */
 
